@@ -1,0 +1,16 @@
+{
+  "name": "nators",
+  "version": "1.0.0",
+  "description": "landing page for nators",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+  },
+  "author": "Zeek-Tech",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {}
+}
